@@ -15,9 +15,21 @@ public class JavaDraw {
         choice = scan.nextInt();
         
         draw(choice);
-        
+
         scan.close();
     }
+
+    /**
+     * Function name: draw - draws an animal that the user chooses.
+     * @param choice: (int)
+     * 
+     * Inside the function: 
+     *  • Based on the choice, draw:
+     *      1. a butterfly
+     *      2. elephant
+     *      3. bear
+     *      4. snake
+     */  
  
     public static void draw (int choice){
         if (choice != 1 && choice != 2 && choice != 3 && choice != 4){
@@ -101,17 +113,4 @@ public class JavaDraw {
                 
         }
     }
-    /**
-     * Function name: draw - draws an animal that the user chooses.
-     * @param choice: (int)
-     * 
-     * Inside the function: 
-     *  • Based on the choice, draw:
-     *      1. a butterfly
-     *      2. elephant
-     *      3. bear
-     *      4. snake
-     */  
-
-
 }
